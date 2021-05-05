@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This example is based off of the Bootstrap 4 Starter
+    Template. It has been modified and additional examples have
+    been added to demo a simple art portfolio. -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Jekyll v4.1.1" />
+    <title>It's Portfolio!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Additional Style Rules-->
+    <style>
+      body{ font-family:times;
+      line-height : 200%;
+          font-weight:bold;
+        background:black;
+      }
+  
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Begin Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Minghui Kong</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/portfolio/index.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/bio.html">About Me</a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+            Click Here
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- End Nav Bar -->
+
+    <!-- Begin Page Content. -->
+    <main role="main" class="container">
+      <!-- Album Top Start. -->
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1>Here is My Portfolio</h1>
+          <p class="lead text-muted">
+            Here are some of my works, including some usual drafts and exercises <br /><br />
+           This website will be updated irregularly!
+          </p>
+        </div>
+      </section>
+      <!-- Album Top End. -->
+
+      <!-- Begin Album Body -->
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <!-- 3Humpbacks Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2Fimage%201.jpg?v=1619900434703"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Glitch
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '1.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        view
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2Fimage%202.jpg?v=1619902401737"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">Glitch</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '2.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- Jasminsbee Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F4zy5m5.jpg?v=1619900537643"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">A MEME</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '3.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F%E6%9C%AA%E5%91%BD%E5%90%8D%E4%BD%9C%E5%93%81.gif?v=1619900322872"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">Gif</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '4.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F1.jpg?v=1619902411284"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">01.30.2021</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '5.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F2.jpg?v=1619902413382"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">12.01.2020</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '6.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F3.jpg?v=1619902415382"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">11.13.2020</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '7.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F4.jpg?v=1619902417736"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">10.20.2020</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '8.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F5.jpg?v=1619902419929"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">10.08.2020 </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '9.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2F6.jpg?v=1619902422085"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">09.18.2020</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '10.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2Fb21b091657dadcc7.jpg?v=1619902424370"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">02.07.2021</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '11.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2Fimage0.jpg?v=1619902426193"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">03.24.2021</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '12.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                        <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.com/646b6681-7353-44c2-b65b-c4c7974944ef%2Fimage1.jpg?v=1619902428079"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">03.09.2021</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = '13.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             </div> </div> </div>
+    </main>
+    <!-- End Page Content. -->
+
+    <!-- Required Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>'
+        );</script
+    ><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
